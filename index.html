@@ -6,11 +6,16 @@
         <title>KoketsoMoilwe's Portfolio Website</title> 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        
+        <!--Fonts(update later)-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="CSS/styles.css">
     </head>
     <body>
         <header>
             <div class="logo">
-                <img src="" alt="">
+                <img src="logo.png" alt="portfolio logo">
             </div>
             <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
@@ -28,10 +33,10 @@
         <!--Introduction-->
         <section class="intro" id="home">
             <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Koketso Moilwe</strong>
+                Hi, I am <strong>Koketso Moilwe!</strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">front-end developer</p>
-            <img src="Image 1.jpg" width="100%" alt="a picture of myself">
+            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <img src="Image 1.jpg" width="100%" alt="a picture of myself" class="intro__img">
         </section>
 
         <!--My services-->
@@ -39,18 +44,18 @@
             <h2  class="section__title section__title--services">What I do</h2>
             <div class="services">
                 <div class="services">
-                    <h3></h3>
-                    <p></p>
+                    <h3>UI/UX Development</h3>
+                    <p>Focusing specifically on creating user interfaces and working closely with designers to implement visual designs.</p>
                 </div> <!--/service-->
 
                 <div class="services">
-                    <h3></h3>
-                    <p></p>
+                    <h3>Web Development</h3>
+                    <p>Specializing in building and maintaining websites and web applications. My primary responsibility is to translate design concepts into functional websites or web applications using programming languages such as HTML, CSS, and JavaScript. I work on both the front-end (client-side) and back-end (server-side) of web development, ensuring that websites are visually appealing, user-friendly, and performant.</p>
                 </div> <!--/service-->
 
                 <div class="services">
-                    <h3></h3>
-                    <p></p>
+                    <h3>Javascript Development</h3>
+                    <p>Specializing in using the JavaScript programming language to build and maintain dynamic and interactive web applications. My primary focus is on developing client-side (front-end) functionality, and some times on server-side (back-end) development using JavaScript frameworks like Node.js.</p>
                 </div> <!--/service-->
             </div>
 
@@ -59,22 +64,20 @@
 
         <!--About Me-->
         <section class="about-me" id="about">
-            <header>
                 <h2 class="section__title section__title--about">Who I Am</h2>
-                <p class="section__subtitle section__subtitle--about"></p>
-            </header>
+                <p class="section__subtitle section__subtitle--about">Junior developer based in the North West, Rustenburg.</p>
 
             <div class="about-me__body">
                 <p></p>
             </div>
 
-            <img src="Image 2.jpg">
+            <img src="Image 2.jpg" alt="" class="about-me__img">
         </section>
         
         <!--My work-->
         <section class="my-work" id="work">
             <h2 class="section__title">My work</h2>
-            <p class="section__subtitle"></p>
+            <p class="section__subtitle">A selection of my range of work</p>
 
             <div class="portfolio">
                 <!--Portfolio item 01-->
@@ -135,11 +138,29 @@
             <a href="email:koketsomoilwe2@gmail.com" class="footer__link">koketsomoilwe2@gmail.com</a>
             <ul class="social-list">
                 <!--add social links on the href attribute-->
-                <li class="social-list__item"><a class="social-list__link"></a></li>
-                <li class="social-list__item"><a class="social-list__link"></a></li>
-                <li class="social-list__item"><a class="social-list__link"></a></li>
-                <li class="social-list__item"><a class="social-list__link"></a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="#">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="#">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="#">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                </li>
             </ul>
         </footer>
+
+        <script src="index.js"></script>
     </body>
 </html>
